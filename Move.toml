@@ -1,0 +1,15 @@
+[package]
+name = "ESports_ Tournaments"
+version = "1.0.0"
+authors = []
+
+[addresses]
+eSportsTournaments = '0xa0cd59b1f48adbff61a6c2402d801ea74909aa4bdb3b517017e0ee13f15b9095'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
